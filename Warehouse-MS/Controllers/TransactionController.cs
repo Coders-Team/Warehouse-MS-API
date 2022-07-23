@@ -17,7 +17,7 @@ namespace Warehouse_MS.Controllers
     {
         private readonly ITransaction _transaction;
         private readonly UserManager<ApplicationUser> _userManager;
-
+         
         public TransactionController(ITransaction transaction,UserManager<ApplicationUser> userManager)
         {
             this._transaction = transaction;
